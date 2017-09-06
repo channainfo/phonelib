@@ -7,6 +7,8 @@ module Phonelib
     # @!attribute [r] extension
     # @return [String] phone extension passed for parsing after a number
     attr_reader :extension
+    
+    attr_reader :data
 
     # including module that has all phone analyzing methods
     include Phonelib::PhoneAnalyzer
